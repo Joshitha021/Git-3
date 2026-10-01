@@ -13,9 +13,10 @@ public class Palindrome {
             num = num / 10;
         }
         if (original == reverse) {
-            System.out.println("Palindrome");
+            System.out.println("Palindrome number");
         } else {
-            System.out.println("Not Palindrome");
+            System.out.println("Not Palindrome number");
         }
+        sc.close();
     }
 }
